@@ -1,6 +1,6 @@
 library(ggplot2)
 
-grafico_tesis <- read.csv("C:/Users/rodri/Downloads/Tabla para gráficos en R .csv")
+grafico_tesis <- read.csv("C:/Users/rodri/Downloads/Tabla_para_graficos_en_R.csv")
 
 grafica_puntos <- ggplot(grafico_tesis, aes(x = Comunidad, y = Cantidad.de.genes, color = Subtipo.molecular)) +
 geom_point() +
